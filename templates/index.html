@@ -27,7 +27,7 @@
 
   <h2>Last 10 visits</h2>
   {% for time in times %}
-    <p>{{ time }}</p>
+    <p>{{ time['timestamp'] }}</p>
   {% endfor %}
 
 </body>
